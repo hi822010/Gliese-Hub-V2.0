@@ -577,3 +577,10 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/hi822010/Extras-Gliese-Hub-Doors/refs/heads/main/M249"))()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "Key Skeleton",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/hi822010/Key-Skeleton-/refs/heads/main/Key%20Skeleton"))()
+   end,
+})
